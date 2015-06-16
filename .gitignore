@@ -1,0 +1,5 @@
+node_modules
+/.idea/typescript-compiler.xml
+/.idea/workspace.xml
+bower_components
+.idea
