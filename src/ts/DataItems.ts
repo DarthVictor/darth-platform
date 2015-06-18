@@ -1,10 +1,8 @@
 /**
  * Created by DarthVictor on 13.06.2015.
  */
-///<reference path='../../bower_components/promise-ts/promise-ts.d.ts'/>
-import promise = require('promise-ts');
 interface ServerData {
-    get(id: number): promise.Promise
+    get(id: number): Promise<any>
 }
 interface ServerField {
     
@@ -52,7 +50,7 @@ class AnimalsData /*implements ServerData */ {
     }
 
 ]*/
-    /*get(id: number): promise.Promise = {
+    /*get(id: number): Promise = {
 
     }*/
 }
